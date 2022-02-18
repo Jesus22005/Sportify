@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+<h1> Sportify App - Versión 1.0</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2> Descripción de la aplicación.</h2>
 
-## Available Scripts
+<p> La presente aplicación web consiste en una plataforma deportiva, en la cual todos los usuarios registrados podrán acceder a personas de su comunidad con las cuales podrán llevar a cabo actividades deportivas. La misma permitirá programar eventos deportivos con distintos usuarios, facilitando el acceso al deporte de los miembros de la app.</p>
 
-In the project directory, you can run:
+<h2>Utilidades de Sportify App</h2>
 
-### `npm start`
+<p>
+<ul>
+<li>Crear una comunidad deportiva que facilite el contacto entre personas de una localidad que tengan los mismos gustos deportivos.</li>
+<li>Programar encuentros deportivos entre los distintos miembros de la aplicación.</li>
+<li>Brindar información sobre eventos deportivos ajenos a la web que puedan ser de interés de los miembros de la aplicación.</li>
+<li>Brindar información sobre establecimientos deportivos cercanos donde se pueden llevar a cabo las distintas actividades programadas</li>
+</ul>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h2>Público al que se dirige Sportify App.</h2>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p>Esta aplicación web va dirigida a todas aquellas personas mayores de edad que deseen practicar actividades deportivas con personas de su comunidad, no existe ninguna limitación relacionada con el nivel de cada usuario.</p>
 
-### `npm test`
+<h2>Estructura.</h2>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p>La aplicación estará compuesta por 4 secciones:
+<ul>
+<li>
+Sección Principal: Consistirá en la página central de la app donde estarán publicadas las últimas noticias relacionadas con eventos deportivos de la comunidad, también estará compuesta por información relativa al uso de la app.
+</li>
+<li>
+Perfil del Usuario: Sección donde se encontrará toda la información personal relativa al usuario junto con sus deportes favoritos y eventos a los cuales asistirá.
+</li>
+<li>
+Sección de actividades: Tablón donde se encontrarán todas las actividades deportivas disponibles.
+</li>
+<li>
+Sección de instalaciones: Tablón informativo relacionado con los establecimientos deportivos donde se pueden practicar los distintos deportes.
+</li>
+</u>
+</p>
