@@ -1,0 +1,65 @@
+/* 
+.registerContainer{
+   width: 100%;
+   
+} */
+
+.registerContainer h1{
+   width: 100%;
+   text-align: center;
+margin-top: 150px;
+   
+   
+}
+
+.contenedor-boton-register{
+   text-align: center;
+   margin-top: 30px;
+   margin-bottom: 50px;
+}
+
+.boton-registro{
+   background-color: red;
+   border: none;
+   
+   }
+
+
+.formulario{
+   padding: 50px;
+   margin-top: 30px;
+   margin-bottom: 50px;
+   width: 100%;
+}
+
+
+.inputClass{
+   width: 100%;
+   margin: auto;
+}
+
+
+.contenedor-register{
+   width: 100%;
+}
+
+
+@media (min-width: 1400px) {
+.contenedor-div-register{ 
+   width: 50% !important;
+}
+
+.h1-register{
+   text-align: center !important;
+   margin-bottom: 30px;
+}
+
+
+.boton-registro{
+   background-color: red;
+   border: none;
+   width: 30%;
+   
+   }
+
+}

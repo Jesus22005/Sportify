@@ -1,0 +1,45 @@
+.body-profile{
+    width: 100%;
+}
+
+.container-profile{
+    width: 80%; 
+    margin: auto;
+    margin-top: 20px;
+}
+
+.contenedor-titulo-user{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.h1-profile{
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.link-profile{
+    color: white;
+    text-decoration: none !important;
+}
+
+.boton-profile{
+    background-color: red;
+    border: none;
+    
+}
+
+
+
+@media (min-width: 1400px) {
+        
+    .container-profile{
+        width: 50%; 
+        margin: auto;
+    }
+      
+  }
+  
+

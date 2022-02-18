@@ -1,0 +1,77 @@
+
+.mt-50-login {
+    margin-top: 50px !important;
+    width: 50% !important;
+    text-align: center;
+    
+    
+    
+  }
+
+.h1-login{
+    margin-top: 20px;
+}
+
+  .mb50-login{
+      margin-left: 50px !important;
+  }
+
+  .centrar-login{
+      display: flex;
+      justify-content: center;
+      background-color: red;
+      border-radius: 5px;
+      color: white;
+      width: 150px;
+  }
+
+ 
+
+
+  @media (min-width:400px) {
+   
+   
+  
+  }
+  
+  
+  @media (min-width:780px) {
+   
+  
+        
+      
+          
+  }
+  
+  @media (min-width: 1000px ) {
+   
+  
+      
+  }
+  
+  
+  
+   @media (min-width: 1200px) {
+        
+     
+    
+      
+  }
+  
+  
+  @media (min-width: 1400px) {
+        
+    .mt-50-login{
+        margin-top: 60px !important;
+        width: 50% !important;
+      }
+
+      h1-login{
+        margin-top: 50px !important;
+        margin-bottom: 50px !important;
+    }
+    
+      
+  }
+  
+     

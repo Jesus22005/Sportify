@@ -1,0 +1,25 @@
+
+.contenedor-view{
+    width: 200px;
+    height: 200px;
+    background-image: url(./images/images.png);
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+    body{
+        width: 100%;
+        height: auto;
+    }
+
+    .h1-view{
+        font-size: 30px;
+        margin-top: 30px;
+    text-align: center;
+    }
+    
+    .boton-view{
+        width: 80px;
+        height: 40px;
+        background-color: red !important;
+        border: none !important;
+    }

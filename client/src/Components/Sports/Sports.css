@@ -1,0 +1,89 @@
+.imagen-fondo{
+    background-image: url(./images/deportes1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 20px !important;
+
+}
+
+.h1-sports{
+margin-top: 10px !important;
+}
+.fondo-lista{
+    background-color: white;
+    width: 150px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+body{
+    height: auto;
+
+    padding-bottom: 60px;
+}
+.boton{
+    width: 100%;
+    display: inline-flex !important;
+    justify-content: center;
+    margin-top: 25px;
+    
+}
+
+.link{
+color: white;
+text-decoration: none;
+
+}
+
+.h6-sports{
+    text-align: center !important;
+    font-size: 20px;
+}
+
+
+
+@media (min-width:400px) {
+    .container-deportes{
+        width: 50%;
+    }
+   
+
+}
+
+
+@media (min-width:780px) {
+      
+    
+        
+}
+
+@media (min-width: 1000px ) {
+    .container-deportes{
+        width: 50%;
+    }
+
+}
+
+    
+
+ @media (min-width: 1200px) {
+      
+    .container-deportes{
+        width: 50%;
+    }
+
+    
+}
+
+
+@media (min-width: 1400px) {
+      
+    .container-deportes{
+        width: 50%;
+    }
+
+    
+}
+
+   

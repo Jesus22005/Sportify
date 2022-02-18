@@ -1,0 +1,49 @@
+
+.boton-borrar-ubicacion{
+    margin: 45px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: red;
+    
+}
+
+
+@media (min-width:400px) {
+      
+ 
+
+}
+
+
+@media (min-width:700px) {
+      
+ 
+   
+        
+}
+
+@media (min-width: 1000px ) {
+}
+
+    
+
+  @media (min-width: 1200px) {
+      
+    
+ 
+    
+        
+    
+
+    
+}
+
+
+@media (min-width: 1400px) {
+      
+    
+    
+}
+
+   

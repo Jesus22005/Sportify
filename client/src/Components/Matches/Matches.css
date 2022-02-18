@@ -1,0 +1,36 @@
+
+
+.mt-50 {
+    margin-top: 50px !important;
+  }
+
+  .boton-matches{
+    margin-top: 20px;
+    background-color: red;
+    border: none;
+    width: 50%;
+    
+    
+    
+  
+  }
+
+  .card-matches{
+    text-align: center ;
+  }
+
+  .link-matches{
+    text-decoration: none;
+    color: white;
+    
+  }
+
+  .boton-crear{
+    text-align: center;
+  }
+
+  .boton-borrar{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
