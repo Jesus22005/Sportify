@@ -66,7 +66,7 @@ function Login() {
     return (
 
 
-        
+  <body>
  <div class="w-75 mx-auto mt-50-login container-login">
 <h1 class="h1-login">Login</h1>
     <container class="p-3 mx-auto">
@@ -91,6 +91,7 @@ function Login() {
            <div style={{display: errorMessage? "block": "none"}}>{errorMessage}</div>
   </container>
 </div> 
+</body>
 
 
 
