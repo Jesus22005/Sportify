@@ -13,7 +13,7 @@ function DeleteUserView() {
 
     return (
       <body>
-        <h1 className="h1-view"> Cuenta eliminada Correctamente <span><Link to="/Home"><input class="boton-view btn btn-primary" type="reset" value="Home"/></Link></span></h1>
+        <h1 className="h1-view"> Cuenta eliminada Correctamente <span><Link to="/"><input class="boton-view btn btn-primary" type="reset" value="Home"/></Link></span></h1>
         <div class=" contenedor-view mx-auto mt-50">
           <div class=""></div>
         </div>
