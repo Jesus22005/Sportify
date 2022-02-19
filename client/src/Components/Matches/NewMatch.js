@@ -31,7 +31,7 @@ useEffect(() => {
     const getLugar = async ()=>{
         try { 
             let response2 = await axios.get(
-                "http://localhost:5000/locations/sportify-locations"
+                "/locations/sportify-locations"
                 )
 
                 setIdLugar(response2.data.ubicacion);
@@ -48,7 +48,7 @@ getLugar()
 useEffect(() => {
     const getItems = async ()=>{
         try { 
-    let response1 = await axios.get("http://localhost:5000/sports/sportify-sports")
+    let response1 = await axios.get("/sports/sportify-sports")
     setIdItem(response1.data.deportes)
      
      console.log(response1)
@@ -76,7 +76,7 @@ console.log("lugarId", idLugar)
        
             const response = await axios({
                 method: "post" ,
-                 url: 'http://localhost:5000/matches/newMatch', 
+                 url: '/matches/newMatch', 
                  data: {...newMatch},
                 headers: {Authorization: localStorage.getItem("firstLogin")}
             })

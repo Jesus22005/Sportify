@@ -35,7 +35,7 @@ function Register() {
 
       
             
-            const response =  await axios.post("http://localhost:5000/users/newUser", {...register})
+            const response =  await axios.post("/users/newUser", {...register})
             
             localStorage.setItem("firstLogin", true)
             // console.log(localStorage)

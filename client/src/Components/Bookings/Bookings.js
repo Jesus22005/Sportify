@@ -18,7 +18,7 @@ function Reservas(){
     useEffect(()=>{
         const getBookings = async ()=>{
             try {
-                let response = await axios.get("http://localhost:5000/bookings/sportify-bookings", {...bookings})
+                let response = await axios.get("/bookings/sportify-bookings", {...bookings})
                
 
                 console.log(response.data)

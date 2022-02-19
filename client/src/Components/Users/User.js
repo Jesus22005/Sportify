@@ -27,7 +27,7 @@ import "./User.css"
     useEffect(() => {
         const getUser = async () => {
             const response = await axios({
-                url:'http://localhost:5000/users/sportify-users/id', 
+                url:'/users/sportify-users/id', 
                 headers: {Authorization: localStorage.getItem("firstLogin")}
             } 
             )

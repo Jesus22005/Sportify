@@ -19,7 +19,7 @@ useEffect(() => {
     const getLugar = async ()=>{
         try { 
             let response2 = await axios.get(
-                "http://localhost:5000/locations/sportify-locations"
+                "/locations/sportify-locations"
                 )
 
                 setIdLugar(response2.data.ubicacion);
@@ -55,7 +55,7 @@ getLugar()
        
             const response = await axios({
                 method: "delete" ,
-                 url: 'http://localhost:5000/locations/deleteLocation/id', 
+                 url: '/locations/deleteLocation/id', 
                  data: {...deleteLocation},
                 headers: {Authorization: localStorage.getItem("firstLogin"),  role: (localStorage.getItem("role"))}
             })

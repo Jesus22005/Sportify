@@ -38,7 +38,7 @@ function NewSports() {
     useEffect(() => {
       const getUser = async () => {
           const response = await axios({
-              url:'http://localhost:5000/users/sportify-users/id', 
+              url:'/users/sportify-users/id', 
               headers: {Authorization: localStorage.getItem("firstLogin")}
           } 
           )
@@ -56,7 +56,7 @@ function NewSports() {
        
             const response = await axios({
                 method: "post" ,
-                 url: 'http://localhost:5000/sports/newSport', 
+                 url: '/sports/newSport', 
                  data: {...newSport},
                 headers: {Authorization: localStorage.getItem("firstLogin"),  role: (localStorage.getItem("role"))},
                

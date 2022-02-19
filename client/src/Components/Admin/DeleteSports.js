@@ -23,7 +23,7 @@ function DeleteSports() {
   useEffect(() => {
     const getItems = async ()=>{
         try { 
-    let response1 = await axios.get("http://localhost:5000/sports/sportify-sports")
+    let response1 = await axios.get("/sports/sportify-sports")
     setIdItem(response1.data.deportes)
      
      console.log(response1)
@@ -50,7 +50,7 @@ getItems()
        
             const response = await axios({
                 method: "delete" ,
-                 url: 'http://localhost:5000/sports/deleteSport/id', 
+                 url: '/sports/deleteSport/id', 
                  data: {...deleteSport},
                 headers: {Authorization: localStorage.getItem("firstLogin"),  role: (localStorage.getItem("role"))}
             })

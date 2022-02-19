@@ -24,7 +24,7 @@ function DeleteMatches() {
        
             const response = await axios({
                 method: "delete" ,
-                 url: 'http://localhost:5000/matches/deleteMatch/id', 
+                 url: '/matches/deleteMatch/id', 
                  data: {...deleteMatch},
                 headers: {Authorization: localStorage.getItem("firstLogin")}
             })

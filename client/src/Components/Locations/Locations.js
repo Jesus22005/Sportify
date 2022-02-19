@@ -32,7 +32,7 @@ function Ubicaciones() {
     const getLocations = async () => {
       try {
         let response = await axios.get(
-          "http://localhost:5000/locations/sportify-locations",
+          "/locations/sportify-locations",
           { ...locations }
         );
 

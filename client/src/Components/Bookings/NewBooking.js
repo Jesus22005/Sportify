@@ -32,7 +32,7 @@ function NewBookings() {
        
             const response = await axios({
                 method: "post" ,
-                 url: 'http://localhost:5000/bookings/newBooking', 
+                 url: '/bookings/newBooking', 
                  data: {...newBooking},
                 headers: {Authorization: localStorage.getItem("firstLogin")}
             })

@@ -24,7 +24,7 @@ function DeleteUser() {
        
             const response = await axios({
                 method: "delete" ,
-                 url: 'http://localhost:5000/users/deleteUser', 
+                 url: '/users/deleteUser', 
                  data: {...deleteUser},
                 headers: {Authorization: localStorage.getItem("firstLogin")}
             })

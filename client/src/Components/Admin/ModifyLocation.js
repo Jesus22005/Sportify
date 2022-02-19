@@ -26,7 +26,7 @@ function ModifyLocation() {
         const getLugar = async ()=>{
             try { 
                 let response2 = await axios.get(
-                    "http://localhost:5000/locations/sportify-locations"
+                    "/locations/sportify-locations"
                     )
     
                     setIdLugar(response2.data.ubicacion);
@@ -58,7 +58,7 @@ function ModifyLocation() {
        
             const response = await axios({
                 method: "put" ,
-                 url: 'http://localhost:5000/locations/updateLocation/id', 
+                 url: '/locations/updateLocation/id', 
                  data: {...changeLocation},
                  headers: {Authorization: localStorage.getItem("firstLogin"),  role: (localStorage.getItem("role"))},
             })

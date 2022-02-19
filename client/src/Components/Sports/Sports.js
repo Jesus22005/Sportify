@@ -26,7 +26,7 @@ function Deportes() {
     const getSports = async () => {
       try {
         let response = await axios.get(
-          "http://localhost:5000/sports/sportify-sports",
+          "/sports/sportify-sports",
          
         );
 

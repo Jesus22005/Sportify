@@ -22,7 +22,7 @@ function Usuarioss(){
     useEffect(()=>{
         const getUsers = async ()=>{
             try {
-                let response = await axios.get("http://localhost:5000/users/sportify-users", {...users})
+                let response = await axios.get("/users/sportify-users", {...users})
                
 
                 console.log(response.data)

@@ -39,7 +39,7 @@ let inscritos0;
     const getMatches = async () => {
       try {
         let response = await axios.get(
-          "http://localhost:5000/matches/sportify-matches"
+          "/matches/sportify-matches"
         );
 
         let partidos = response.data.partidos

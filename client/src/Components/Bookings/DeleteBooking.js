@@ -23,7 +23,7 @@ function DeleteBookings() {
        
             const response = await axios({
                 method: "delete" ,
-                 url: 'http://localhost:5000/bookings/deleteBooking', 
+                 url: '/bookings/deleteBooking', 
                  data: {...deleteBooking},
                 headers: {Authorization: localStorage.getItem("firstLogin")}
             })

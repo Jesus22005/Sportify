@@ -30,7 +30,7 @@ function NewLocation() {
     useEffect(() => {
         const getItems = async ()=>{
             try { 
-        let response1 = await axios.get("http://localhost:5000/sports/sportify-sports")
+        let response1 = await axios.get("/sports/sportify-sports")
         setIdItem(response1.data.deportes)
          
          console.log(response1)
@@ -73,7 +73,7 @@ function NewLocation() {
        
             const response = await axios({
                 method: "post" ,
-                 url: 'http://localhost:5000/locations/newLocation', 
+                 url: '/locations/newLocation', 
                  data: {...newLocation},
                 headers: {Authorization: localStorage.getItem("firstLogin"),  role: (localStorage.getItem("role"))},
                

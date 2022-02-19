@@ -29,7 +29,7 @@ function ModifyUser() {
        
             const response = await axios({
                 method: "put" ,
-                 url: 'http://localhost:5000/users/updateUser', 
+                 url: '/users/updateUser', 
                  data: {...changeUser},
                 headers: {Authorization: localStorage.getItem("firstLogin")}
             })
